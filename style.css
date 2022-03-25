@@ -86,6 +86,7 @@ main{
     /* to have pushed out of screen until hover: */
     transform: translateY(101%);
     transition: transform 0.3s ease-in;
+    cursor: pointer;
 }
 .movie:hover .overview{
     transform: translateY(0);
